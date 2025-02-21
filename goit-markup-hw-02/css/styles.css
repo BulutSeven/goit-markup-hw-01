@@ -1,0 +1,58 @@
+/* WebStudio Başlığı */
+.web {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    /* %3 harf aralığı */
+    color: #4D5AE5;
+    /* WEB için renk */
+}
+
+.studio {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    /* STUDIO için renk */
+}
+/* Menü (Nav) Stili */
+.menu-nav {
+    width: 261px;
+    height: 24px;
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    top: 24px;
+    left: 347px;
+}
+
+/* Menü içindeki listeyi düzenleme */
+.menu-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menüdeki tüm bağlantılar (Studio, Portfolio, Contacts) */
+.menu-item {
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    /* %2 harf aralığı */
+    color: #2E2F42;
+    /* Yazı rengi */
+    text-decoration: none;
+    /* Alt çizgiyi kaldır */
+    text-align: center;
+}
