@@ -1,58 +1,179 @@
-/* WebStudio Başlığı */
-.web {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    /* %3 harf aralığı */
-    color: #4D5AE5;
-    /* WEB için renk */
+/* Genel Stiller */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+  background-color: #ffffff;
 }
 
-.studio {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 0.03em;
-    color: #2E2F42;
-    /* STUDIO için renk */
-}
-/* Menü (Nav) Stili */
-.menu-nav {
-    width: 261px;
-    height: 24px;
-    display: flex;
-    gap: 40px;
-    position: absolute;
-    top: 24px;
-    left: 347px;
+/* Header Stilleri */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
-/* Menü içindeki listeyi düzenleme */
-.menu-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
+.logo-accent {
+  color: #2e2f42;
 }
 
-/* Menüdeki tüm bağlantılar (Studio, Portfolio, Contacts) */
-.menu-item {
-    display: inline-block;
-    width: 48px;
-    height: 24px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    /* %2 harf aralığı */
-    color: #2E2F42;
-    /* Yazı rengi */
-    text-decoration: none;
-    /* Alt çizgiyi kaldır */
-    text-align: center;
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-info li:first-child a {
+  letter-spacing: 0.02em;
+}
+
+.contact-info a:hover,
+.contact-info a:focus {
+  color: #404bbf;
+}
+
+/* Ana Bölüm */
+.hero {
+  background-color: #2e2f42;
+  color: white;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  background-color: #4d5ae5;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* Özellikler Bölümü */
+.feature-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Takım Bölümü */
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-member {
+  background-color: #ffffff;
+  list-style: none;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Portfolio Bölümü */
+.portfolio-titletwo {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-category {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-text span {
+  color: #2e2f42;
 }
